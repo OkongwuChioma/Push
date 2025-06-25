@@ -8,7 +8,7 @@ namespace GooglePushNotification.Service
 {
     public class FCMService
     {
-        private readonly string _projectId = "savehungernotification";
+        private readonly string _projectId = "";
         private readonly string _firebaseKeyPath = @"App_Data\push-notification-dafd2-firebase-adminsdk-fbsvc-73ff61be89.json";
         private readonly HttpClient _httpClient;
 
